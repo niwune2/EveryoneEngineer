@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>codejumpの課題再現</title>
+        <meta name="description" content="TEXT">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+            <h1 class="site-title">
+                <a href="index.html"><img src="img/logo.svg" alt="サイトロゴ">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="http://www.instagram" target="_blank">
+                            <img class="icon" src="img/icon-instagram.png" alt="インスタグラムのアイコン">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="mainvisual">
+                <picture>
+                    <!--`source mediaで、最大幅が600以下なら-spの画像を表示する -->
+                    <source media="(max-width:600px)" srcset="img/mainvisual-sp.jpg">
+                    <img src="img/mainvisual-pc.jpg" alt="メインビジュアル">
+                </picture>
+            </div>
+
+            <section id="about" class="wrapper">
+                <h2 class="sec-title">About</h2>
+                <ul>
+                    <li>akakin san</li>
+                    <li>2th floor abcdefg building nakamoto, telly</li>
+                    <li>tel: 070-0707-1010</li>
+                    <li>url: http://www.yahoo.google.jp</li>
+                    <li>mail: akakin@gneil.com</li>
+                </ul>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit harum ipsam nam quisquam, vel laboriosam aspernatur nulla laudantium nemo asperiores facilis similique iusto, delectus doloremque dicta illo odit atque?</p>
+            </section>
+
+            <section id="works" class="wrapper">
+                <h2 class="sec-title">About</h2>
+                    <ul>
+                        <li><img src="img/works1.jpg" alt="works1"></li>
+                        <li><img src="img/works2.jpg" alt="works2"></li>
+                        <li><img src="img/works3.jpg" alt="works3"></li>
+                        <li><img src="img/works4.jpg" alt="works4"></li>
+                        <li><img src="img/works5.jpg" alt="works5"></li>
+                        <li><img src="img/works6.jpg" alt="works6"></li>
+                    </ul>
+            </section>
+
+            
+        </main>
+    </body>
+</html>
